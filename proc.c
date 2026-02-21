@@ -7,7 +7,7 @@
 #include "proc.h"
 #include "spinlock.h"
  
-// CPS3250
+// CPS4200
 // initialize global variables
 int sched_policy = 0; // 0: default round robin; 1: priority-based
 int sched_trace_enabled = 1;
@@ -340,7 +340,7 @@ sched1(void)
 }
 
 /*
- * Course: CPS3250
+ * Course: CPS4200
  *
  * Function: sched2
  * ----------------
